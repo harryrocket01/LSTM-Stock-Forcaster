@@ -1,0 +1,36 @@
+This a a fix for pytrends
+
+
+headers = {
+    "authority": "trends.google.com",
+    "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+    "accept-language": "en-GB,en;q=0.9,ru-RU;q=0.8,ru;q=0.7,en-US;q=0.6,es;q=0.5",
+    # 'cookie': 'CONSENT=YES+GB.en-GB+V9+BX; HSID=AnZ1Yj54eJ7erla5t; SSID=A2phyIFxpIC-Bh_p3; APISID=rg8bvQ9D1ukSaPiK/AJx-QoFPOFpVWe0OA; SAPISID=IPTvFlLHn8P0L4oW/AwEnC2SMKmXZK60Oa; __Secure-1PAPISID=IPTvFlLHn8P0L4oW/AwEnC2SMKmXZK60Oa; __Secure-3PAPISID=IPTvFlLHn8P0L4oW/AwEnC2SMKmXZK60Oa; SEARCH_SAMESITE=CgQI15kB; OTZ=7365288_56_56_123900_52_436380; SID=fQiDmTTdQRvY09mRn5Uhbjkzo5_W9r52X2AfED-jGrtV4XSkwe7VOg5jg-kgNlqWxc-8oQ.; __Secure-1PSID=fQiDmTTdQRvY09mRn5Uhbjkzo5_W9r52X2AfED-jGrtV4XSkm3YWQOEMFrFJjW-xGjHd5w.; __Secure-3PSID=fQiDmTTdQRvY09mRn5Uhbjkzo5_W9r52X2AfED-jGrtV4XSktdoplNr-t3TRBMy3IMCHZg.; AEC=Ae3NU9Olk7sXPKRkwgfNRWEzDCwr24SnEccr8GyZdIIdX6WbxCu_2ihqwzU; NID=511=Wps1pX1U__JRb3OOhvKUcq_8TGA0zq5dY2kpTwzqn5un1gqA9tsUU1nCUTrwV7oHFmdoD5vX47n9sutOG-JSY0c2YQ_bnK3aoboKTmfHClnmMoI88fFMNG0aMAizrC0f6OgCD0mjBoDekayAN_jlW0SQN3CQxhOPCgsCaZ7Fqz9_R052CrUeTRO62zOk_mxfvVmebAgCNJzzyveF6qa8M9rd-n_c_hxSsPMLUfwkblxgtoprMXCMeQzPL8VLyMpaJ861PQdpJvjGZn-0MNCZ3c9QXG4pisq9VN0BAESxYluzu7cgVjkgrgfspCKRjFQnY4VRvOLJwD-QsVuSTxtXwR_4OVDNj5RM160GBoRATMRPWzpi8u0IOsfTgHVg8jbtLoe3XOud; 1P_JAR=2024-01-18-09; __Secure-ENID=17.SE=dtDjPt8ncb99N9u40yrpocXNoIGuaEFYQ_VlsfKChSW8unL_b_J5j1s65_HA9oQbIcnf8QqRT9sqdzOu9Gv83QCNouJtOomlWuj2ZcWtoHHCbszpClZUNMFGs783F7N-gAYoJ3leo9juaGSPjMPngL0psn-RRVtfuwQhClheAEedTJVhZWbOvajPjEfIhIPSQi7cjDEwrIuzEXDGX1BcOZfT-Wupa30k5_kLGylkLRg6j9tpVMap-NgXS5j7eh7hCv5gQbAf8kAD2ZM; __Secure-1PSIDTS=sidts-CjIBPVxjSqAaDq1cXoS4Kujjc_1FYRfRX-1P38vHYT4lW3IhhacH8wNk0R7AuHcYhRHRfBAA; __Secure-3PSIDTS=sidts-CjIBPVxjSqAaDq1cXoS4Kujjc_1FYRfRX-1P38vHYT4lW3IhhacH8wNk0R7AuHcYhRHRfBAA; SIDCC=ABTWhQEnmbezCqm5skqEarsk8-0s4tORIE9XPjHfmabxaWnVWA7zae5zumVbKzNoo3EPci7GCHNF; __Secure-1PSIDCC=ABTWhQFhwNLSRnzVwOxYGAhvttJ_PQAJyUqVm8_ijfTM9nSYcNk2EuZuKqXimwa-VfS_WIp4Azs; __Secure-3PSIDCC=ABTWhQFlAlW5_GKVKrQop_IJI120sagCqdSjhdt5FVl8mYxOnHGJ-ANM4RGCjHTmyVWSPDpvgzs',
+    "referer": "https://trends.google.com/",
+    "sec-ch-ua": '"Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v="120"',
+    "sec-ch-ua-arch": '"x86"',
+    "sec-ch-ua-bitness": '"64"',
+    "sec-ch-ua-full-version": '"120.0.6099.217"',
+    "sec-ch-ua-full-version-list": '"Not_A Brand";v="8.0.0.0", "Chromium";v="120.0.6099.217", "Google Chrome";v="120.0.6099.217"',
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-model": '""',
+    "sec-ch-ua-platform": '"Windows"',
+    "sec-ch-ua-platform-version": '"10.0.0"',
+    "sec-ch-ua-wow64": "?0",
+    "sec-fetch-dest": "document",
+    "sec-fetch-mode": "navigate",
+    "sec-fetch-site": "same-origin",
+    "sec-fetch-user": "?1",
+    "upgrade-insecure-requests": "1",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "x-client-data": "CKa1yQEIkLbJAQijtskBCKmdygEIj5PLAQiSocsBCIWgzQEIjuHNAQi26c0BCKLuzQEIzu7NAQiD8M0BCIXwzQEI/PHNARjp080BGKfqzQEY2erNAQ==",
+}
+GET_METHOD = "get"
+
+
+class TrendReq(UTrendReq):
+    def _get_data(self, url, method=GET_METHOD, trim_chars=0, **kwargs):
+        return super()._get_data(
+            url, method=GET_METHOD, trim_chars=trim_chars, headers=headers, **kwargs
+        )
+
